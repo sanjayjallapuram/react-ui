@@ -1,0 +1,115 @@
+.body{
+    margin-left: 150px;
+    background-color: rgba(128, 128, 128, 0.229);
+    padding-top: 60px;
+}
+
+.Consultants{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    display: flex;
+    border-bottom: 1px solid green;
+}
+
+.Consultant-parent{
+    background-color: white;
+}
+
+.GroupsIcon{
+    margin: 5px;
+}
+
+p{
+    margin: 10px 0 0 10px;
+}
+
+.filters{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin: 5px 0 0 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.filter-btn{
+    background-color:rgb(6, 54, 6);
+    border:none;
+    width: 70px;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.select{
+    margin: 5px 0 5px 20px;
+    border: none;
+    width: 150px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+.filters input{
+    margin-left: 20px;
+    width: 20px;
+}
+.filters label{
+    margin:10px 0 0 5px ;
+}
+
+.card{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    line-height: 0.8;
+    color: black; 
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+    background-color: white;
+}
+
+.img-1{
+    position:relative ;
+    top: 25px;
+}
+
+.c-1{
+    border-left: 5px solid rgba(255, 166, 0, 0.392);
+}
+
+.c-2{
+    border-left: 5px solid rgba(0, 0, 255, 0.295)
+}
+
+.c-3{
+    border-left: 5px solid rgba(172, 255, 47, 0.415);
+}
+
+.c-4{
+    border-left: 5px solid rgba(128, 0, 128, 0.393);
+}
+
+.info{
+    display: flex;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.icons{
+   position: relative;
+   left: 1200px;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    border: none;
+    text-align: center;
+}
+
+table th,td{
+    height: 50px;
+}
